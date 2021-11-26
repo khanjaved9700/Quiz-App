@@ -153,10 +153,11 @@ footer{
 
 .quiz_box .score .score-card span{
     background-color: rgb(12,88,29);
-    padding: 5px 20px;
+    padding: 5px 12px;
     border: none;
     color: #f1f1f1;;
     border-radius: 8px;
+    margin-left: 10px;
 }
 .quiz_box .controls {
         display: flex;
@@ -270,5 +271,14 @@ footer{
     .quiz_box .score .next {
         float: left;
         margin-left: 0px;
+    }
+
+    .quiz_box .score .score-card span {
+        background-color: rgb(12,88,29);
+        padding: 4px 2px;
+        border: none;
+        color: #f1f1f1;
+        border-radius: 6px;
+        margin-left: 2px;
     }
 }
